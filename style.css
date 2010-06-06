@@ -1,0 +1,18 @@
+.comment .submitted, .comment .links,
+.node .meta, .node .links {
+  font-size: 0.8em;
+  color: #777;
+}
+
+.comment .submitted a, .comment .links a,
+.node .meta a, .node .links a {
+  color: #55F;
+}
+
+div.teaser-button-wrapper {
+  display: none;
+}
+
+.teaser-checkbox div.form-item {
+  display: none;
+}
