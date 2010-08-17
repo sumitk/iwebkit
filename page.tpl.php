@@ -46,11 +46,11 @@ if(theme_get_setting('iwebkit_menu_type') == 'popup') {
 	// Display the primary links
    if(!empty($primary_links)) {
 		    $out = '<ul class="pageitem" title="' . ($title ? $title : $site_name) . '" selected="true">
-		<li class="textbox"><p>My Example menu</p>
+		<li class="textbox"><p>'.t('Primary links').'
 		</li>';
 
 	  foreach($primary_links as $link_name => $link) {
-		  $out .= '<li class="menu"><a href="' . $link['href'] . '"><img alt="list" src="'.path_to_theme('iphone').'/thumbs/contacts.png" /><span class="name">' . $link['title']  . '</span><span class="comment">'.$link['attributes']['title'].'</span><span class="arrow"></span></a></li>';
+		  $out .= '<li class="menu"><a href="' . $link['href'] . '"><img alt="list" src="'.base_path().path_to_theme('iphone').'/thumbs/contacts.png" /><span class="name">' . $link['title']  . '</span><span class="comment">'.$link['attributes']['title'].'</span><span class="arrow"></span></a></li>';
 		}
 		$out .= '</ul>';
 		echo $out;
@@ -59,11 +59,11 @@ if(theme_get_setting('iwebkit_menu_type') == 'popup') {
   	// Display the primary links
      if(!empty($primary_links)) {
   		    $out = '<ul class="pageitem" title="' . ($title ? $title : $site_name) . '" selected="true">
-  		<li class="textbox"><p>My Example menu</p>
+		<li class="textbox"><p>'.t('Primary links').'
   		</li>';
 
   	  foreach($primary_links as $link_name => $link) {
-  		  $out .= '<li class="menu"><a href="' . $link['href'] . '"><img alt="list" src="'.path_to_theme('iphone').'/thumbs/contacts.png" /><span class="name">' . $link['title']  . '</span><span class="comment">'.$link['attributes']['title'].'</span><span class="arrow"></span></a></li>';
+  		  $out .= '<li class="menu"><a href="' . $link['href'] . '"><img alt="list" src="'.base_path().path_to_theme('iphone').'/thumbs/contacts.png" /><span class="name">' . $link['title']  . '</span><span class="comment">'.$link['attributes']['title'].'</span><span class="arrow"></span></a></li>';
   		}
   		$out .= '</ul>';
   		echo $out;
