@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="<?php print $language->language; ?>" xml:lang="<?php print $language->language; ?>">
 
   <head>
-    <meta name="apple-mobile-web-app-capable" content="yes" /> 
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <title><?php print $head_title ?></title>
     <meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;" />
@@ -12,12 +12,12 @@
   </head>
   <body>
     <div id="topbar">
-    
+
       <div id="leftnav"><?php if (!$is_front): ?><a href="<?php print base_path(); ?>"><img alt="home" src="<?php print  base_path() . path_to_theme() ?>/images/home.png" /></a><?php endif; ?>
       </div>
-      
+
       <div id="title"><?php print $site_name; ?></div>
-      
+
       <div id="rightnav"><a class="noeffect" onclick="iWebkit.popup('nav')"><img alt="nav" src="<?php print base_path().path_to_theme() ?>/images/nav.png" /></a>
       </div>
 	  </div>
@@ -28,7 +28,7 @@ if(theme_get_setting('iwebkit_menu_type') == 'popup') {
 		$out  = '<div id="nav" class="popup">';
 		$out .= '<div id="frame" class="confirm_screen">';
 		$out .= '<span>Navigation</span>';
-	  
+
 	  foreach($primary_links as $link_name => $link) {
 			$out .= '<a href="/' . $link['href'] . '">';
 			$out .= '<span class="gray">' . $link['title'] . '</span>';
@@ -41,7 +41,7 @@ if(theme_get_setting('iwebkit_menu_type') == 'popup') {
 		$out .= '</div>';
 		$out .= '</div>';
 		echo $out;
-	}	
+	}
 } elseif(theme_get_setting('iwebkit_menu_type') == 'normal-every') {
 	// Display the primary links
    if(!empty($primary_links)) {
@@ -70,9 +70,9 @@ if(theme_get_setting('iwebkit_menu_type') == 'popup') {
   	}
     }
 ?>
-	
+
     <div id="content">
-      
+
       <div id="block-top">
         <?php if ($block_top): ?>
         <?php print $block_top; ?>

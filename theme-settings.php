@@ -15,10 +15,10 @@ function iwebkit_settings($saved_settings) {
     'iwebkit_theme' => 'default',
     'iwebkit_menu_type' => 'popup',
   );
-  
+
   // Merge the variables and their default values
   $settings = array_merge($defaults, $saved_settings);
-  
+
   // Layout Type
   $form['iwebkit_theme'] = array(
     '#type' => 'select',
@@ -41,7 +41,7 @@ function iwebkit_settings($saved_settings) {
     ),
     '#description' => t('This will determine the colour and appearance of your iPhone theme.'),
   );
-  
+
   $form['iwebkit_menu_type'] = array(
     '#type'          => 'select',
     '#title'         => t('Primary Menu Layout'),
