@@ -2,7 +2,7 @@ iWebkit theme for drupal is created by Sumit Kataria (http://sumitk.net) as a ho
 
 Blogs about iWebkit theme for drupal are here: http://civicactions.com/blog/2009/oct/30/build_iphone_compatible_drupal_websites_using_iwebkit_part_3_final_release_iwebkit_theme
 
-iWebKit is a web toolkit designed to create iPhone and iPod touch compatible websites and webapps. It is very easy to use, extremely fast, compatible and extensible. iWebkit is available under GNU license and can be downloaded from http://iwebkit.net. 
+iWebKit is a web toolkit designed to create iPhone and iPod touch compatible websites and webapps. It is very easy to use, extremely fast, compatible and extensible. iWebkit is available under GNU license and can be downloaded from http://iwebkit.net.
 
 iWebkit theme for drupal is to make your drupal websites iPhone/iPod compatible.
 
@@ -19,6 +19,6 @@ Use of Mobile Tools is highly recommended. http://rupal.org/project/mobile_tools
 
 Features:
 
-Form elements: All form elements now looks like default iphone forms. This means there is no need to add custom user-login, comments or node add forms for your iphone website, you can directly use drupal default forms and they will be automatically converted into iPhone style form elements. 
+Form elements: All form elements now looks like default iphone forms. This means there is no need to add custom user-login, comments or node add forms for your iphone website, you can directly use drupal default forms and they will be automatically converted into iPhone style form elements.
 
 12 different subthemes + 1 default theme are now included in iWebkit project. To give you more control the theme settings (at 'admin/build/themes/settings/iwebkit') provide a UI to switch between different subthemes. Each subtheme consists of its own style.css along with custom colored image files.
