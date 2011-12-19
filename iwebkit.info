@@ -3,7 +3,7 @@
 name = iWebkit
 description = iPhone Custom Theme by <a href="http://sumitk.net">SumitK</a> based on
 <a href="http://iwebkit.net">iWebkit</a> Framework.
- 
+
 core = 6.x
 engine = phptemplate
 stylesheets[all][] = style.css
